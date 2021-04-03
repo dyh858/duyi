@@ -1,0 +1,118 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>渡一第一课</title>
+        <meta content="伊特" name="keywords"><!-- 搜索引擎关键字 -->
+        <meta content="人力资源" name="description">
+        <script>
+            // alert("hllo")
+        </script>
+    </head>
+    <body>
+        <!-- 空格、回车是文本分隔符 -->
+        <div style="width:100px;height:100px;background-color: red;">
+        asdfasdfasdfasdfsadfasdfasdfasdfasdfsd
+        </div>
+        <div style="width:100px;height:100px;background-color: red;">
+        asdf asdfasdf asdfsadfas dfasdfa sdfasdfsd
+        </div>
+        <div>&nbsp;</div>
+        <!-- 左右尖括号 -->
+        lesss than &lt; great than &gt;
+        <code>
+            <br>换行标签，单独出现,就能展现功能，单标签
+            <hr>
+        </code>
+        <ol type="i">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ol>
+        <a href="tel:13882850125">可以打电话如果是在手机上</a>
+        <a href="mialto:dyh858@163.com">发邮件</a>
+        <a href="javascript:alert('hillo') ">可以运行代码</a>
+        <form action="" method="get">
+            <input type="text" name="name" value="请输入" sytle="color:#999" onfocus="if(this.value=='请输入'){this.value='';this.sytle.color='#333'}" onblur="if(this.value==''){this.value='请输入'};this.style.color='#999'">
+            <input type="password" name="pwd">
+            <input type="text" placeholder="请输入">
+            <input type="submit">
+<!-- 单选框必须有相同的name -->
+            <!-- <input type="radio" name="v" value="a">溧阳那多
+            <input type="radio" name="v" value="3">溧阳那多
+            <input type="radio" name="v" value="4">溧阳那多 -->
+            <input type="submit">
+        </form>
+        <p>
+            css权重
+        </p>
+        <P>!important infinity 正无穷 在计算机是可以计算的 正无穷的2倍，就是2倍正无穷</P>
+        <p>行间样式   1000</p>
+        <p>id         100</p>
+        <p>class|属性|伪类  10</p>
+        <p>标签|伪元素 1</p>
+        <p>通配符 0</p>
+        <p>css权重是256进制</p>
+        <!-- 
+            直接子元素选择器 div>em 中间加>
+         -->
+         <!-- 后代选择器 如： "section div p ul li a san" 计算机是从右向左开始查找 效率最高-->
+         
+         <style>
+             div.demo{color:red;}/*并列选择器 多个选择器不加空格*/
+         </style>
+         <!-- 逗号分开的是分组选择器 -->
+         <img src="https://img3.doubanio.com/view/photo/albumcover/public/p2620261001.webp" alt="">
+         
+         <p sytle="font-family:arial"> arial是互联网通用的字体，是苹果公司的乔布斯发明的</p>
+
+         <h2>光学三颜色：红绿蓝</h2>
+         <p>光学三颜色拼在一起会发生一种看不见得白色，#000000就是纯黑，#ff0000就是红色，#00ff00绿色，#0000ff蓝色  </p>
+         <p>如果每两位重复，就可以改成3位，例如：#f40,<span style="color:#f40;">淘宝红</span>  </p>
+         <table border='1' style="
+         border-collapse:collapse;
+         text-align: center;
+         ">
+         <style>
+             tr{
+                 line-height:2rem;
+             }
+             td{
+                 padding:0 7px;
+             }
+         </style>
+            <tr>
+                <th>白色</th>
+                <th>绿色</th>
+                <th>蓝色</th>
+                <th>说明</th>
+            </tr> 
+            
+             <tr>
+                 <td style="color:#FF0000;">r</td>
+                 <td style="color:#00FF00;">g</td>
+                 <td style="color:#0000FF;">b</td>
+                 <td>---颜色代码</td>
+             </tr>
+             <tr>
+                <td>00-ff</td>
+                <td>00-ff</td>
+                <td>00-ff</td>
+                <td>---饱和度</td>
+             </tr>
+         </table>
+         <h3>透明色</h3>
+         <p>transparent是透明色</p>
+         <p>border-left-color:transparent</p>
+         <div style="
+         width:10px;
+         height:10px;
+         border-width:100px;
+         border-left-color:#f40;
+         border-top-color:transparent;
+         border-right-color:transparent;
+         border-bottom-color:trasparent;
+         "></div>
+    </body>
+</html>
